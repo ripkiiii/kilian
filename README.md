@@ -25,10 +25,19 @@ actually does when it runs.
 
 ## Install
 
-On a fresh Void Linux install, as root:
+On a fresh Void Linux install, as root, one line:
 
 ```sh
-./install.sh
+curl -fsSL https://raw.githubusercontent.com/ripkiiii/kilian/main/install.sh | sh
+```
+
+A fresh Void install is already root; if you're not, pipe into `sudo sh`.
+
+Rather read before you run? (You should.) Clone and inspect first:
+
+```sh
+git clone https://github.com/ripkiiii/kilian
+cd kilian && ./install.sh
 ```
 
 ## Why
