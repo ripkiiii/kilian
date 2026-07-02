@@ -15,7 +15,7 @@ other way: it hands you the tools to open it up, and gets out of your way.
 Run one script on a fresh Void install and you have a box ready to build and
 dissect low-level software:
 
-- **toolchain** — `base-devel`, `gcc`, `gdb`, `binutils`
+- **toolchain** — `base-devel`, `gcc`, `gdb`, `binutils`, `cmake`, `clang` + `clangd`
 - **inspectors** — `strace`, `ltrace`, `valgrind`
 - **dev** — `git`, `tmux`, `neovim`, `curl`
 - **system** — `htop`, `man-pages`, `man-db`

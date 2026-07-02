@@ -18,7 +18,7 @@ KILIAN_VERSION="0.1.0"
 # --- packages -------------------------------------------------------------
 # The toolbox. Grouped by what they're for, so the opinion is legible.
 
-TOOLCHAIN="base-devel gcc gdb binutils"          # compile + debug
+TOOLCHAIN="base-devel gcc gdb binutils cmake clang clang-tools-extra"  # compile + debug, C/C++, gcc + clang/clangd
 INSPECT="strace ltrace valgrind"                  # look inside running programs
 DEV="git tmux neovim curl"                        # daily driving
 SYSTEM="htop man-pages man-db"                     # observe + read the manual
