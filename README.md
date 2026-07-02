@@ -28,7 +28,7 @@ actually does when it runs.
 On a fresh Void Linux install, as root, one line:
 
 ```sh
-curl -fsSL https://deflated.xyz/kilian | sh
+curl -fsSL https://kilian.deflated.xyz | sh
 ```
 
 A fresh Void install is already root; if you're not, pipe into `sudo sh`.
